@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_layout"
+    android:background="@drawable/high_score_backgroundbot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background image for the map -->
+    <ImageView
+        android:id="@+id/map_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fake_map_background"
+        />
+
+    <!-- Ensure no other views are defined in a way that can cause conflicts -->
+</RelativeLayout>

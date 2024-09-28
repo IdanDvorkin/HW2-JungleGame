@@ -1,0 +1,57 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:padding="@dimen/layout_margin">
+
+
+    <Button
+        android:id="@+id/button_sensor_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Sensors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/first_main_menu_button"
+        android:layout_alignParentTop="true" />
+
+    <!-- Button for Button Control -->
+    <Button
+        android:id="@+id/button_button_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Buttons"
+        android:layout_below="@id/button_sensor_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_margin" />
+
+    <Button
+        android:id="@+id/button_fast_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Button Mode"
+        android:layout_below="@id/button_button_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_margin" />
+
+    <!-- View High Scores Button -->
+    <Button
+        android:id="@+id/high_scores_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View High Scores"
+        android:layout_below="@id/button_fast_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_margin" />
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_below="@id/high_scores_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_margin" />
+
+</RelativeLayout>
